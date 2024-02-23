@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar style start  */
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 200px;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  margin-right: 12px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+.color-text {
+  color: rgb(253, 110, 10);
+}
+.hireMe {
+  background-color: rgb(253, 110, 10);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+/* banner section style start  */
+.bgImg {
+  background-image: url(images/Group\ 12.png), url(images/Developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner-title {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+}
+.banner-sub-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.banner-discription {
+  font-size: 18px;
+  color: rgb(71, 71, 71);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: rgb(253, 110, 10);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+/* about section style start  */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.aboutme {
+  text-align: center;
+  margin-top: 130px;
+  background-color: rgb(255, 248, 243);
+  border-radius: 10px;
+  padding: 80px;
+}
+.about-title {
+  font-size: 35px;
+}
+.about-discription {
+  font-size: 18px;
+  color: rgb(117, 117, 117);
+}
