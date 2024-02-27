@@ -129,3 +129,40 @@ main {
   padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+/* education summary section style start  */
+.summary-title {
+  text-align: center;
+  padding: 50px;
+  font-size: 35px;
+  font-weight: 700px;
+}
+
+.educationExprences {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.education-title {
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.engineering-common-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #212121;
+}
+.commonText {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.common-description {
+  color: #757575;
+  font-size: 16px;
+}
+.education {
+  padding: 30px;
+}
